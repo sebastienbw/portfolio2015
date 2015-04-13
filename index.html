@@ -5,35 +5,36 @@
 	<link href="css/parallax.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
 	<link href="css/fonts.css" rel="stylesheet">
+	<link href="css/animate.css" rel="stylesheet">
 
-	<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
-  	<script type="text/javascript" src="js/script.js"></script>
+
+	
 </head>
 <body>
 	<div class="parallax" id="parallax-container">
 
-		<div class="parallax-layer p-clouds-back">
+		<div class="parallax-layer animated slideInUp" id="p-clouds-back">
 			<img class="fullwidth" src="img/cloudsback.png">
 		</div>
-		<div class="parallax-layer p-clouds-front">
+		<div class="parallax-layer animated slideInUp" id="p-clouds-front">
 			<img class="fullwidth" src="img/cloudsfront.png">
 		</div>
-		<div class="parallax-layer p-title">
+		<div class="parallax-layer animated fadeInUp" id="p-title">
 			<h1 class="skewed">SEBASTIEN</h1>
 			<h2 class="skewed">Bernier-Wong</h2>
 			<h3 class="skewed">Outdoor Educator & Media Designer</h3>
 		</div>
 		
-		<div class="parallax-layer p-mountains">
+		<div class="parallax-layer animated slideInUp" id="p-mountains">
 			<img class="fullwidth" src="img/mtns.png">
 		</div>
-		<div class="parallax-layer p-trees-back">
+		<div class="parallax-layer animated slideInUp" id="p-trees-back">
 			<img class="fullwidth" src="img/treesback.png">
 		</div>
-		<div class="parallax-layer p-trees-middle">
+		<div class="parallax-layer animated slideInUp" id="p-trees-middle">
 			<img class="fullwidth" src="img/treesmiddle.png">
 		</div>
-		<div class="parallax-layer p-trees-front">
+		<div class="parallax-layer animated slideInUp" id="p-trees-front">
 			<img class="fullwidth" src="img/treesfront.png">
 
 			
@@ -158,11 +159,15 @@
 
 
 						    	<div id="expandable-content" class="hide hidden-content">
-					    		<p>In order to better understand the needs of the target group, we performed workshops with the camp staff. From there, the required features, user experience and content structure was determined</p>
+						    		<p>In order to better understand the needs of the target group, we performed workshops with the camp staff. From there, the required features, user experience and content structure was determined</p>
 
-					    		<p>The end result was a simple, focused application specially tailored for camp leaders.</p>					
-</div>
-<a id="expand" class="expander">Learn More</a>
+						    		<p>The end result was a simple, focused application specially tailored for camp leaders.</p>
+
+						    		<img src="img/backpocketGallery1.png">
+						    		<img src="img/backpocketGallery2.png">	
+						    		<img src="img/backpocketGallery3.png">		
+								</div>
+								<a id="expand" class="expander">Learn More</a>
 				    		</div>
 				    	</div>
 
@@ -174,8 +179,10 @@
 						    	<p>A little bit of experimental code that generates a tree according the the beats and pitch of a song.</p>
 
 						    	<div id="expandable-content" class="hide hidden-content">
-</div>
-<a id="expand" class="expander">Learn More</a>
+						    		<img src="img/growthGallery1.png">
+						    		<img src="img/growthGallery2.png">	
+								</div>
+								<a id="expand" class="expander">Learn More</a>
 						    </div>
 				    		</div>
 
@@ -188,8 +195,13 @@
 
 						    	<div id="expandable-content" class="hide hidden-content">
 						    	<p> Players attempt to shoot other ships by playing cards to move around the board and perform actions. Sloops is the product of extensive user testing and refinement to balance the mechanics and ease learnability.</p>
-</div>
-<a id="expand" class="expander">Learn More</a>
+
+						    	<img src="img/sloopsGallery1.jpg">
+						    	<img src="img/sloopsGallery2.png">
+						    	<img src="img/sloopsGallery5.JPG">	
+
+								</div>
+								<a id="expand" class="expander">Learn More</a>
 						    </div>
 				    		</div>
 
@@ -201,8 +213,12 @@
 						    	<p>From documents to staff-wear, there were many opportunities to enhance Sasamat's image.</p>
 <div id="expandable-content" class="hide hidden-content">
 						    	<p> Both content and presentation of promotional materials were improved while keeping the culture of the camp at the forefront.</p>
-</div>
-<a id="expand" class="expander">Learn More</a>
+
+						    	<img src="img/sasamatGallery1.png">
+						    	<img src="img/sasamatGallery2.png">
+						    	<img src="img/sasamatGallery3.png">
+								</div>
+								<a id="expand" class="expander">Learn More</a>
 				    		</div>
 				    	</div>
 				    	</div>
@@ -243,5 +259,11 @@
 			</div>
 		</div>
 	</div>
+	<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+  	<script type="text/javascript" src="js/script.js"></script>
+  	<script src="js/wow.js"></script>
+	<script>
+	 	new WOW().init();
+	</script>
 </body>
 </html>

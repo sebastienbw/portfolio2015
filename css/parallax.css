@@ -15,38 +15,52 @@
 	bottom: 0;
 }
 
-.p-clouds-back {
+#p-clouds-back {
 	-webkit-transform: translateZ(-1px) scale(2);
 	transform: translateZ(-1px) scale(2);
+	-webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
 	
 }
 
-.p-clouds-front {
+#p-clouds-front {
 	-webkit-transform: translateZ(-0.8px) scale(1.8);
 	transform: translateZ(-0.8px) scale(1.8);
+	-webkit-animation-duration: 0.7s;
+    animation-duration: 0.7s;
 }
 
-.p-title {
+#p-title {
 	-webkit-transform: translateZ(-0.75px) scale(1.75);
 	transform: translateZ(-0.75px) scale(1.75);
+	-webkit-animation-duration: 2s;
+    animation-duration: 2s;
 }
 
-.p-mountains {
+#p-mountains {
 	-webkit-transform: translateZ(-0.4px) scale(1.4);
 	transform: translateZ(-0.4px) scale(1.4);
+	-webkit-animation-duration: 1s;
+    animation-duration: 1s;
 }
 
-.p-trees-back {
+#p-trees-back {
 	-webkit-transform: translateZ(-0.3px) scale(1.3);
 	transform: translateZ(-0.3px) scale(1.3);
+	-webkit-animation-duration: 1.2s;
+    animation-duration: 1.2s;
 }
 
-.p-trees-middle {
+#p-trees-middle {
 	-webkit-transform: translateZ(-0.2px) scale(1.2);
 	transform: translateZ(-0.2px) scale(1.2);
+	-webkit-animation-duration: 1.4s;
+    animation-duration: 1.4s;
 }
 
-.p-trees-front {
+#p-trees-front {
 	-webkit-transform: translateZ(0);
 	transform: translateZ(0);
+	-webkit-animation-duration: 1.6s;
+    animation-duration: 1.6s;
 }

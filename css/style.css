@@ -184,7 +184,7 @@ h3.skewed {
 
 .show {
     /*display: none;*/
-    max-height: 1000px;
+    max-height: 10000px;
     opacity: 1;
     visibility: visible;
 }
@@ -333,6 +333,7 @@ width: 100%;
 
 .slider-text {
     color: #143F38;
+    position: relative;
 }
 
 /*.slider-content .location {
@@ -673,10 +674,9 @@ span.protected-content:before {
 
 }
 
-.slider-text-shader.leadership {
-    /*padding-top: 15em;*/
+.slider-text-shader img {
+    margin: 1em 0;
 }
-
 .leadership {
     position: relative;
     /*z-index:-1;*/
@@ -766,6 +766,9 @@ span.protected-content:before {
     /*border-radius: 0.5em;*/
 }
 
+.hidden-content img {
+    width: 100%;
+}
 
 @media screen and (max-width: 1024px) {
     .fullwidth {
@@ -906,4 +909,5 @@ span.protected-content:before {
         font-size: 1em;
     }
 }
+
 
